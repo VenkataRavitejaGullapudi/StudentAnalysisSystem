@@ -1,0 +1,10 @@
+{% include 'base1.html' %}
+
+<center><font size="5" style="calligraphy">LOGIN</font></center>
+<form method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit">Sign in</button>
+</form>
+
+{% include 'footer1.html' %}

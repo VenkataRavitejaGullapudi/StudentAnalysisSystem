@@ -1,0 +1,9 @@
+{% include 'base.html' %}
+
+{% for i in si %}
+<a href="{% url 'details' i.id %}">
+{{i.regno}}<br>
+</a>
+{% endfor %}
+
+{% include 'footer.html' %}
