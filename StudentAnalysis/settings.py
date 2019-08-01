@@ -114,7 +114,7 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = False
+USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
@@ -127,7 +127,11 @@ STATICFILES_DIRS=[
     'templates/static'
 ]
 
+
+
 LOGIN_URL='login'
+
+
 EMAIL_USE_TLS=True
 EMAIL_HOST='smtp.gmail.com'
 EMAIL_HOST_USER='srkrsas@gmail.com'
