@@ -1,1 +1,1 @@
-web: gunicorn studentanalysis.wsgi
+web: gunicorn StudentAnalysis.wsgi
