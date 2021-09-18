@@ -134,8 +134,4 @@ STATICFILES_DIRS=[
 LOGIN_URL='login'
 
 
-EMAIL_USE_TLS=True
-EMAIL_HOST='smtp.gmail.com'
-EMAIL_HOST_USER='srkrsas@gmail.com'
-EMAIL_HOST_PASSWORD='sas@srkr@123'
-EMAIL_PORT=587
+
